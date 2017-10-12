@@ -11,7 +11,7 @@
        <remote name="sbu"
            revision="refs/heads/dev"
             fetch="ssh://root@github.sbu"/>
-
+        
   <remote  name="aosp"
            fetch="http://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -345,7 +345,7 @@
   <project path="frameworks/opt/vcard" name="ThirdProject/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="third" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/support" name="MoKee/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/data-binding" name="AnromOS/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/data-binding" name="AnromOS/android_frameworks_data-binding" groups="pdk-cw-fs,pdk-fs"/>
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -440,7 +440,7 @@
   <project path="packages/services/Car" name="ThirdProject/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="third" />
   <project path="packages/services/Mms" name="ThirdProject/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="third" />
   <project path="packages/services/Telecomm" name="AnromOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="AnromOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="Mokee/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="ThirdProject/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="third" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aosp" />

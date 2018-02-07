@@ -9,11 +9,8 @@
   <project path="external/fuse" name="ThirdProject/android_external_fuse" remote="third" />
   <project path="external/google" name="MoKee/android_external_google" />
   <project path="external/htop" name="ThirdProject/android_external_htop" remote="third" />
-  <project path="external/koush/ion" name="ThirdProject/ion" remote="third" />
   <project path="external/libncurses" name="ThirdProject/android_external_libncurses" remote="third" />
   <project path="external/libtar" name="ThirdProject/android_external_libtar" remote="third" />
-  <project path="external/libtruezip" name="ThirdProject/android_external_libtruezip" remote="third" />
-  <project path="external/lzo" name="ThirdProject/android_external_lzo" remote="third" />
   <project path="external/mokee/BuildController" name="MoKee/android_external_mokee_BuildController" />
   <project path="external/mokee/ServerController" name="MoKee/android_external_mokee_ServerController" revision="refs/heads/master" />
   <project path="external/nano" name="ThirdProject/android_external_nano" remote="third" />
@@ -58,7 +55,6 @@
   <project path="packages/services/ThemeInterfacer" name="MoKee/android_packages_services_ThemeInterfacer" />
   <project path="packages/services/WeatherService" name="MoKee/android_packages_services_WeatherService" />
   <project path="prebuilts/mksdk" name="MoKee/android_prebuilts_mksdk" clone-depth="1" />
-  <project path="prebuilts/snapdragon/llvm-3.8" name="MoKee/android_prebuilts_snapdragon_llvm-3.8" groups="pdk,linux,arm" clone-depth="1" />
   <project path="system/extras/su" name="MoKee/android_system_extras_su" />
   <project path="vendor/mksdk" name="MoKee/mk_platform_sdk" />
   <project path="vendor/private" name="MoKee/mk_private" />
